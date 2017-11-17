@@ -1,3 +1,8 @@
-for(var i=0; i<10; i++) {
-    console.log("i heeft nu de waarde " + i)
+var mijnauto = {
+    merk: "Lamborghini",
+    type: "Huracan Performante",
+    aantalWielen: 4,
+    kleur: "mat Zwart"
 }
+
+console.log(mijnauto.kleur);
