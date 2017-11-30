@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="shuffle.css">
+    <meta charset="UTF-8">
+    <title>3.1</title>
+</head>
+<body>
+<h1>Tiger Shuffle</h1>
+<div id="pics">
+<img src="img/tiger1.jpg">
+<img src="img/tiger2.jpg">
+<img src="img/tiger3.jpg"><br>
+<img src="img/tiger4.jpg">
+<img src="img/tiger5.jpg">
+<img src="img/tiger6.jpg"><br>
+<img src="img/tiger7.jpg">
+<img src="img/tiger8.jpg">
+<img src="img/tiger9.jpg">
+</div>
+<script>
+    var plaatjes = document.getElementsByTagName("img");
+    random = 0;
+    for(var i = 0; 1 < plaatjes.length; i ++) {
+        var random = Math.floor(Math.random() * 9) + 1;
+        plaatjes[i].src = "img/tiger" + random + ".jpg";
+    }
+
+</script>
+</body>
+</html>
